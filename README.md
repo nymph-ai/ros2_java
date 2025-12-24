@@ -68,7 +68,7 @@ Make sure you have Gradle 3.2 (or later) installed.
 
 1. Source your ROS 2 installation, for example:
 
-        source /opt/ros/humble/setup.bash
+        source /opt/ros/jazzy/setup.bash
 
 1. Download the ROS 2 Java repositories into a workspace:
 

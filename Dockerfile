@@ -1,4 +1,4 @@
-FROM ros:humble-ros-base
+FROM ros:jazzy-ros-base
 
 ENV DEBIAN_FRONTEND=noninteractive
 
@@ -30,7 +30,7 @@ RUN apt-get update \
 
 ENV ROS2JAVA_INSTALL_PATH=/ws/ros2_java_ws/install
 
-RUN source /opt/ros/humble/setup.bash  && \
+RUN source /opt/ros/jazzy/setup.bash  && \
     colcon build &&\
     rm -rf build log
 
